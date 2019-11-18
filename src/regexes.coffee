@@ -3,7 +3,7 @@ exports.DELIMITER = new RegExp('\r?\n')
 exports.FWD = new RegExp("^[-]+[ ]*Forwarded message[ ]*[-]+$", 'im')
 
 # On {date}, {somebody} wrote:
-exports.ON_DATE_SMB_WROTE = new RegExp("(-*[>]?[ ]?(On|Le|W dniu|Op|Am|P\xe5|Den)[ ].*(,|u\u017cytkownik)(.*\n){0,2}.*(wrote|sent|a \xe9crit|napisa\u0142|schreef|verzond|geschreven|schrieb|skrev):?-*)")
+exports.ON_DATE_SMB_WROTE = new RegExp("(-*[>]?[ ]?(El|On|Le|W dniu|Op|Am|P\xe5|Den)[ ].*(,|u\u017cytkownik)(.*\n){0,2}.*(escribió|envió|wrote|sent|a \xe9crit|napisa\u0142|schreef|verzond|geschreven|schrieb|skrev):?-*)")
 # On {date} wrote {somebody}:
 exports.ON_DATE_WROTE_SMB = new RegExp('(-*[>]?[ ]?(Op|Am)[ ].*(.*\n){0,2}.*(schreef|verzond|geschreven|schrieb)[ ]*.*:)')
 
